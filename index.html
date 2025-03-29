@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structured Webpage</title>
+</head>
+<body>
+
+    <h1>Welcome to My Page...</h1>
+
+    <h2>My to do list:</h2>
+    <ol type="i">
+        <li>Wake up early</li>
+        <li>Have a healthy breakfast</li>
+        <li>Feed and walk my dog</li>
+        <li>Have an hour workout session</li>
+        <li>Practice coding in the evening</li>
+    </ol>
+
+    <h2>Html Image</h2>
+    <img src="https://images.pexels.com/photos/164660/pexels-photo-164660.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Beautiful Landscape" width="500">
+
+    <h2>Html Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Martin Baraza</td>
+                <td>Juja Town</td>
+                <td>+254 700 569 470</td>
+                <td>baraza245@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane Kelly</td>
+                <td>Westlands, woodville lane</td>
+                <td>+254 711 387 425</td>
+                <td>jane.kelly@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Peter Kanyeki</td>
+                <td>Pipeline</td>
+                <td>+254 721 975 368</td>
+                <td>kanyekipeter@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Alice Mwikali</td>
+                <td>Ngei street</td>
+                <td>+254 743 283 467</td>
+                <td>alicekali322@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Sheila Temi</td>
+                <td>Parklands</td>
+                <td>+254 743 376 227</td>
+                <td>temisheila622@gmail.com</td>
+            </tr> 
+        </tbody>
+
+    <h3>Html Form</h3>
+    <form action="#" method="POST">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        </div>
+
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        </div>
+
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8">
+            <small>Password must be at least 8 characters long.</small>
+        </div>
+
+
+        <div>
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="birthdate" name="birthdate">
+        </div>
+
+
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="">Select a country</option>
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Namibia</option>
+                <option value="tanzania">Zambia</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+
+        <div>
+            <span>Gender:</span>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other_gender" name="gender" value="other">
+            <label for="other_gender">Other</label>
+        </div>
+
+
+        <div>
+            <span>Interests:</span>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="travel" name="interests" value="travel">
+            <label for="travel">Travel</label>
+        </div>
+
+
+        <button type="submit">Register</button>
+        <button type="reset">Cancel</button>
+    </form>
+
+</body>
+</html>
